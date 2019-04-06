@@ -19,11 +19,11 @@
   },
   "scripts": {
     "start": "node server.js",
-	"phone": "node iphoneav.js"
+
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hanton66/recipes
+    "url": "https://github.com/hanton66/recipes"
   },
   "author": "Herbert",
   "license": "CC-BY-1.0",
