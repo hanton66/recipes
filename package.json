@@ -23,12 +23,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/sclorg/nodejs-ex.git"
+    "url": "https://github.com/hanton66/recipes"
   },
-  "author": "Steve Speicher <sspeiche@gmail.com>",
+  "author": "Herbert",
   "license": "CC-BY-1.0",
   "bugs": {
-    "url": "http://github.com/sclorg/nodejs-ex/issues"
+    "url": "https://github.com/hanton66/recipes"
   },
-  "homepage": "http://github.com/sclorg/nodejs-ex"
+  "homepage": "https://github.com/hanton66/recipes"
 }
