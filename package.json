@@ -1,5 +1,5 @@
 {
-  "name": "recipes",
+  "name": "nodejs-ex",
   "version": "0.0.1",
   "description": "Node.js sample app for OpenShift 3",
   "main": "server.js",
@@ -23,12 +23,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hanton66/recipes"
+    "url": "http://github.com/sclorg/nodejs-ex.git"
   },
-  "author": "Herbert",
+  "author": "Steve Speicher <sspeiche@gmail.com>",
   "license": "CC-BY-1.0",
   "bugs": {
-    "url": "https://github.com/hanton66/recipes"
+    "url": "http://github.com/sclorg/nodejs-ex/issues"
   },
-  "homepage": "https://github.com/hanton66/recipes"
+  "homepage": "http://github.com/sclorg/nodejs-ex"
 }
