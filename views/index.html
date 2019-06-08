@@ -5,11 +5,11 @@
 <head>
 <title>Was esse ich heute?</title>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
 <meta name="apple-mobile-web-app-capable" content="yes"/>
 <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
 <link rel="icon" type="image/png" href="essenico.png"/>
-<link rel="apple-touch-icon" href="essenico_touch.png"/>
+<link rel="apple-touch-icon" href="essenico.pngg"/>
 <link rel="apple-touch-startup-image" href="essenico.png" />
 <style type="text/css" media="screen">@import "iphonenav.css";</style>
 <script type="application/x-javascript" src="iphonenav.js"></script>
@@ -17,8 +17,8 @@
 
 <body>
     <h1 id="pageTitle"></h1>
-    <a id="homeButton" class="button" href="#rezepte">Zurück</a>
-    <a class="button" href="#searchForm">Suchen</a>
+    <a id="homeButton" class="button" onclick="location.reload(true)">Zurück</a>
+	<a id="viewButton" class="button" onclick="print()">Drucken</a>
 	
 
     <ul id="rezepte" title="Rezepte" selected="true">
@@ -71,7 +71,8 @@
         <li><a href="#Kartoffelsuppe">Kartoffelsuppe</a></li>
         <li><a href="#Gemueseeintopf">Gemüseeintopf</a></li>
         <li><a href="#Linsensuppe">Linsensuppe</a></li>
-        <li><a href="#Nudelsuppe">Nudelsuppe</a></li>
+		<li><a href="#Nudelsuppe">Nudelsuppe</a></li>
+        <li><a href="#Mairuebensuppe">Mairübensuppe</a></li>		
     </ul>
 	
 	<ul id="Sossen" title="Saucen/Toppings">
@@ -617,7 +618,7 @@
 		<li>Frühlingszwiebel in Butter anschwitzen</li>		
 		<li>Mit Brühe ablöschen</li>
 		<li>Nudeln hinzugeben</li>
-		<li>Markkl�sschen hinzugeben</li>
+		<li>Markklösschen hinzugeben</li>
 		<li>Ca. 10 min kochen lassen</li>
 		<li>Mit 1 El. Ketschup verfeinern</li>
 		<hr>
@@ -626,6 +627,24 @@
 		<hr>
 		<li>Dazu paßt: 
 			<a href="#Broesel">Croutons</a>
+		</li>
+	</div>
+	
+	<div id="Mairuebensuppe" class="panel" title="Rezept">
+		<img align="right" hspace="40" border="2" width="120" src="img_eat\mairuebensuppe.jpg" alt="Bild">
+        <h3>Mairübensuppe</h3>	
+		<li>Frühlingszwiebel und Schinken in Öl anschwitzen</li>		
+		<li>gewürfelte Mairüben dazugeben</li>
+		<li>Mit Brühe ablöschen </li>
+		<li>Ziegenkäse und Sahne hinzugeben</li>
+		<li>Ca. 15 min kochen lassen</li>
+		<li>Mit Petersille und Radiesschen garnieren</li>
+		<hr>
+		<li>Zubereitungsdauer: ca. 20 min</li>
+		<li>3-4 Portionen: 4-5 Mairüben, 2 Tassen Brühe, 1 Sahne, 100gr Ziegenkäse</li>
+		<hr>
+		<li>Dazu paßt: 
+			<a href="#Pizzabrot">Pizzabrot</a>
 		</li>
     </div>
 	
@@ -698,17 +717,5 @@
 		</li>
     </div>
 	
-	<div id="searchResults" class="panel" title="Search">
-        <h2>Search results go here...</h2>
-    </div>
-    
-	<form id="searchForm" action="" class="dialog" method="post" enctype="text/plain">
-        <fieldset>
-            <h1>Stichwort Suche</h1>
-            <a class="button" href="#Rezpte">Search</a>
-            <input type="text">
-			<input type="submit" name="Name" value="Absenden">
-        </fieldset>
-    </form>
 </body>
 </html>
